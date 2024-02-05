@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Guide</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="key.js" defer></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <div><h1>Movie Guide App</h1></div>
+
+      <div class="search-container">
+        <input
+          class="movie-name"
+          id="movie-name"
+          type="text"
+          placeholder="search movie here..."
+          value=""
+        />
+        <button class="search-btn" id="search-btn">Search</button>
+      </div>
+    </nav>
+
+    <section>
+      <div class="movie-cards">
+        <div class="cartigory"><h1>New Movies</h1></div>
+        <div class="container1" id="container1">
+          <div class="container">
+            <img src="" alt="" class="skeleton movie-img" />
+            <span class="movie-title skeleton-text"></span>
+            <span class="movie-title skeleton-text"></span>
+          </div>
+          <div class="container">
+            <img src="" alt="" class="skeleton movie-img" />
+            <span class="movie-title skeleton-text"></span>
+            <span class="movie-title skeleton-text"></span>
+          </div>
+          <div class="container">
+            <img src="" alt="" class="skeleton movie-img" />
+            <span class="movie-title skeleton-text"></span>
+            <span class="movie-title skeleton-text"></span>
+          </div>
+          <div class="container">
+            <img src="" alt="" class="skeleton movie-img" />
+            <span class="movie-title skeleton-text"></span>
+            <span class="movie-title skeleton-text"></span>
+          </div>
+          <div class="container">
+            <img src="" alt="" class="skeleton movie-img" />
+            <span class="movie-title skeleton-text"></span>
+            <span class="movie-title skeleton-text"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="movie-cards hide" id="movie-cards">
+        <div class="container2 results" id="results">
+          <div class="info">
+            <img src="" class="skeleton poster" />
+            <div>
+              <h2 class="skeleton-text"></h2>
+              <div class="rating skeleton-text">
+                <h4 class="skeleton-text"></h4>
+              </div>
+              <div class="details">
+                <span class="skeleton-text"></span>
+                <span class="skeleton-text"></span>
+                <span class="skeleton-text"></span>
+              </div>
+              <div>
+                <div class="skeleton-text"></div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="skeleton-text"></div>
+          <div class="skeleton-text"></div>
+          <div class="skeleton-text"></div>
+          <div class="skeleton-text"></div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>Created by SIZOLWETHU DUBE</p>
+      <div>
+        <h3>About:</h3>
+        <p>
+          This is an API application for fetching movies from a third party.
+        </p>
+      </div>
+      <div>
+        <h3>Contact:</h3>
+        <p>dubemzomba@gmail.com</p>
+      </div>
+    </footer>
+  </body>
+</html>
